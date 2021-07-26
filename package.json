@@ -2,9 +2,9 @@
   "name": "@socfony/oauth-scope",
   "version": "0.0.1",
   "description": "Socfony OAuth scopes",
-  "main": "src/index.js",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --build"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,9 @@
     "url": "https://github.com/socfony/oauth-scope/issues"
   },
   "homepage": "https://github.com/socfony/oauth-scope#readme",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "typescript": "^4.3.5"
   }
