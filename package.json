@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/socfony/oauth-scope#readme",
   "files": [
-    "dist"
+    "src"
   ],
   "devDependencies": {
     "typescript": "^4.3.5"
