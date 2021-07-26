@@ -1,8 +1,9 @@
 {
   "name": "@socfony/oauth-scope",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Socfony OAuth scopes",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --build"
   },
@@ -17,7 +18,7 @@
   },
   "homepage": "https://github.com/socfony/oauth-scope#readme",
   "files": [
-    "src"
+    "dist"
   ],
   "devDependencies": {
     "typescript": "^4.3.5"
